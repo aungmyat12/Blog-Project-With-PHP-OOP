@@ -1,0 +1,58 @@
+user
+====
+id
+name
+email
+password
+image (nullable);
+
+languages
+=========
+id
+slug 64564-php
+name (php)
+
+
+category
+========
+id
+slug 777-php
+name (php)
+
+articles
+========
+id
+slug
+title
+image
+category_id
+user_id
+description
+
+article_language
+================
+article_id
+language_id
+
+article_likes
+==============
+user_id
+article_id
+
+article_comment
+================
+user_id
+article_id
+comment
+
+<i>
+api.php?like&user_id=1&article_id=1
+
+
+<!--<a href="--><?php //echo $user['next_page'] ?><!--">Next</a>-->
+<!--<a href="--><?php //echo $user['prev_page'] ?><!--">Prev</a>-->
+<!--<p>-->
+<!--    --><?php //echo $user['total'] ?>
+<!--</p>-->
+<!--<hr>-->
+
